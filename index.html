@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio Name Photography | Portraits, Weddings & Events</title>
+  <meta name="description" content="Studio Name Photography: natural, timeless portrait, wedding, family and event photography.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <a href="#top" class="logo">Studio Name<span>Photography</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Kind Words</a>
+      <a href="#contact" class="nav-cta">Book a Session</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" style="background-image:url('https://picsum.photos/seed/hero-light/1920/1200')"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Portraits &middot; Weddings &middot; Events</p>
+        <h1>Moments worth<br><em>keeping forever.</em></h1>
+        <p class="lede">Honest, light-filled photography for the people and days that matter most.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn">View Portfolio</a>
+          <a href="#contact" class="btn btn-ghost">Check Availability</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Portfolio</h2>
+      </div>
+      <div class="filters" role="tablist" aria-label="Filter portfolio">
+        <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter" data-filter="weddings" role="tab" aria-selected="false">Weddings</button>
+        <button class="filter" data-filter="portraits" role="tab" aria-selected="false">Portraits</button>
+        <button class="filter" data-filter="family" role="tab" aria-selected="false">Family</button>
+        <button class="filter" data-filter="events" role="tab" aria-selected="false">Events</button>
+        <button class="filter" data-filter="landscape" role="tab" aria-selected="false">Landscape</button>
+      </div>
+      <div class="gallery" id="gallery"><!-- Filled by js/main.js from js/photos.js --></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="about-photo">
+        <img src="https://picsum.photos/seed/photographer/800/1000" alt="Portrait of the photographer" loading="lazy">
+      </div>
+      <div class="about-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h2>Your Name</h2>
+        <p>I'm a photographer based in <strong>Your City</strong>, and I believe the best photos happen when people forget there's a camera in the room. My style is relaxed and documentary, with a little gentle direction so you always look like yourself.</p>
+        <p>Over the past <strong>X years</strong> I've photographed hundreds of weddings, families and brands. Every session gets the same care, from the first email to the final gallery.</p>
+        <ul class="stats">
+          <li><strong>250+</strong><span>Sessions</span></li>
+          <li><strong>80+</strong><span>Weddings</span></li>
+          <li><strong>5&#9733;</strong><span>Average review</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Investment</p>
+        <h2>Services &amp; Pricing</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Portrait Session</h3>
+          <p class="price">from $250</p>
+          <ul>
+            <li>1 hour, one location</li>
+            <li>30+ edited high-res images</li>
+            <li>Private online gallery</li>
+            <li>Print release</li>
+          </ul>
+          <a href="#contact" class="btn btn-small" data-package="Portrait Session">Enquire</a>
+        </article>
+        <article class="card featured">
+          <span class="badge">Most popular</span>
+          <h3>Wedding Collection</h3>
+          <p class="price">from $2,400</p>
+          <ul>
+            <li>Up to 8 hours of coverage</li>
+            <li>400+ edited images</li>
+            <li>Engagement session included</li>
+            <li>Sneak peek within 48 hours</li>
+          </ul>
+          <a href="#contact" class="btn btn-small" data-package="Wedding Collection">Enquire</a>
+        </article>
+        <article class="card">
+          <h3>Family &amp; Events</h3>
+          <p class="price">from $400</p>
+          <ul>
+            <li>2 hours of coverage</li>
+            <li>75+ edited images</li>
+            <li>Online gallery with downloads</li>
+            <li>Print &amp; album options</li>
+          </ul>
+          <a href="#contact" class="btn btn-small" data-package="Family &amp; Events">Enquire</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section testimonials">
+      <div class="section-head">
+        <p class="eyebrow">Kind Words</p>
+        <h2>From Past Clients</h2>
+      </div>
+      <div class="quotes">
+        <blockquote>
+          <p>&ldquo;We've looked through our wedding gallery a hundred times and still cry every time. Every moment we cared about was there.&rdquo;</p>
+          <cite>Sample Client &amp; Partner, Wedding</cite>
+        </blockquote>
+        <blockquote>
+          <p>&ldquo;Our kids usually hate photos, but they had a blast. These are the first family pictures where we all actually look like us.&rdquo;</p>
+          <cite>The Sample Family, Family Session</cite>
+        </blockquote>
+        <blockquote>
+          <p>&ldquo;Professional, fast and so easy to work with. Our headshots completely refreshed our brand.&rdquo;</p>
+          <cite>Sample Business, Brand Portraits</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="contact-intro">
+        <p class="eyebrow">Let's Work Together</p>
+        <h2>Book a Session</h2>
+        <p>Tell me a little about what you have in mind and I'll get back to you within 48 hours with availability and next steps.</p>
+        <ul class="contact-details">
+          <li><span>Email</span><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><span>Phone</span><a href="tel:+15555555555">(555) 555-5555</a></li>
+          <li><span>Based in</span>Your City &middot; available to travel</li>
+        </ul>
+      </div>
+      <!-- To receive messages without a backend, replace the action with a Formspree/Netlify endpoint. -->
+      <form class="contact-form" id="contact-form" action="mailto:hello@example.com" method="post" enctype="text/plain">
+        <div class="row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <div class="row">
+          <label>Session type
+            <select name="session" id="session-select">
+              <option>Portrait Session</option>
+              <option>Wedding Collection</option>
+              <option>Family &amp; Events</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>Preferred date<input type="date" name="date"></label>
+        </div>
+        <label>Tell me about your plans<textarea name="message" rows="5" required></textarea></label>
+        <button type="submit" class="btn">Send Enquiry</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#top" class="logo">Studio Name<span>Photography</span></a>
+    <nav class="social" aria-label="Social media">
+      <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://pinterest.com/" target="_blank" rel="noopener">Pinterest</a>
+    </nav>
+    <p>&copy; <span id="year"></span> Studio Name Photography. All rights reserved.</p>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-prev" aria-label="Previous photo">&#8249;</button>
+    <figure>
+      <img id="lb-img" src="" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lb-next" aria-label="Next photo">&#8250;</button>
+  </div>
+
+  <script src="js/photos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
